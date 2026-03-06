@@ -1,0 +1,83 @@
+{
+  "groups": [
+    {
+      "name": "ai",
+      "type": "com.cy.mediagen.config.AiProperties",
+      "sourceType": "com.cy.mediagen.config.AiProperties"
+    },
+    {
+      "name": "ai.dashscope",
+      "type": "com.cy.mediagen.config.AiProperties$DashScope",
+      "sourceType": "com.cy.mediagen.config.AiProperties",
+      "sourceMethod": "getDashscope()"
+    },
+    {
+      "name": "ai.tts",
+      "type": "com.cy.mediagen.config.AiProperties$Tts",
+      "sourceType": "com.cy.mediagen.config.AiProperties",
+      "sourceMethod": "getTts()"
+    },
+    {
+      "name": "oss",
+      "type": "com.cy.mediagen.config.OssProperties",
+      "sourceType": "com.cy.mediagen.config.OssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ai.dashscope.api-key",
+      "type": "java.lang.String",
+      "description": "API Key",
+      "sourceType": "com.cy.mediagen.config.AiProperties$DashScope"
+    },
+    {
+      "name": "ai.dashscope.base-url",
+      "type": "java.lang.String",
+      "description": "API 基础地址",
+      "sourceType": "com.cy.mediagen.config.AiProperties$DashScope"
+    },
+    {
+      "name": "ai.dashscope.model",
+      "type": "java.lang.String",
+      "description": "模型名称（如 qwen-turbo）",
+      "sourceType": "com.cy.mediagen.config.AiProperties$DashScope"
+    },
+    {
+      "name": "ai.tts.base-url",
+      "type": "java.lang.String",
+      "description": "TTS API 基础地址",
+      "sourceType": "com.cy.mediagen.config.AiProperties$Tts"
+    },
+    {
+      "name": "ai.tts.default-voice-id",
+      "type": "java.lang.String",
+      "description": "默认音色模型 ID",
+      "sourceType": "com.cy.mediagen.config.AiProperties$Tts"
+    },
+    {
+      "name": "oss.access-key-id",
+      "type": "java.lang.String",
+      "description": "访问密钥 ID",
+      "sourceType": "com.cy.mediagen.config.OssProperties"
+    },
+    {
+      "name": "oss.access-key-secret",
+      "type": "java.lang.String",
+      "description": "访问密钥 Secret",
+      "sourceType": "com.cy.mediagen.config.OssProperties"
+    },
+    {
+      "name": "oss.bucket-name",
+      "type": "java.lang.String",
+      "description": "Bucket 名称",
+      "sourceType": "com.cy.mediagen.config.OssProperties"
+    },
+    {
+      "name": "oss.endpoint",
+      "type": "java.lang.String",
+      "description": "OSS 服务端点",
+      "sourceType": "com.cy.mediagen.config.OssProperties"
+    }
+  ],
+  "hints": []
+}
